@@ -14,5 +14,57 @@
  *= require_self
  */
 
-@import 'bootstrap-sprockets';
-@import 'bootstrap';
+@import "bootstrap-sprockets";
+@import "bootstrap";
+
+
+// remove rounded corners globally
+.chip {
+  border-radius: 15px !important;
+}
+* {
+  border-radius: 0 !important;
+}
+
+// restyle buttons
+.btn-info {
+  background-color: #484E54;
+  border-color: #484E54;
+}
+.btn-info:hover {
+  background-color: #333333;
+  border-color: #333333;
+}
+.btn-default {
+  background-color: #006DB6;
+  border-color: #006DB6;
+  color: white;
+}
+.btn-default:hover {
+  background-color: #006DB6;
+  border-color: #006DB6;
+  color: white;
+}
+
+// do not stretch input fields over whole screen. But then, prevent margin from inner bootstrap container
+.half-screen {
+  margin: 0;
+  padding: 0;
+}
+
+// draw a separating line for bootstrap containers
+.split-border {
+  padding-right:20px;
+  border-right: 1px solid #ccc;
+}
+
+// link color
+a.text-link a.text-link:visited {
+  color: #006DB6 !important;
+}
+a.text-link a.text-link:active {
+  color: #006DB6 !important;
+}
+a.text-link {
+  color: #006DB6 !important;
+}
