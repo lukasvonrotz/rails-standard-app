@@ -36,10 +36,15 @@
             </li>
         <% else %>
             <li>
-              <a href="<%=new_user_registration_path%>"><span class="glyphicon glyphicon-user"></span> Register</a>
+              <a href="<%=new_user_registration_path%>">
+                <span class="glyphicon glyphicon-user"></span>&nbsp;&nbsp;<%= t('users.registrations.new.sign_up') %>
+              </a>
             </li>
             <li>
-              <a href="<%=new_user_session_path%>"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+              <a href="<%=new_user_session_path%>">
+                <span class="glyphicon glyphicon-log-in"></span>&nbsp;&nbsp;<%= t('users.sessions.new.sign_in') %>
+              </a>
+            </li>
         <% end %>
       </ul>
     </div>

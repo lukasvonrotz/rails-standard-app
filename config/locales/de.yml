@@ -1,0 +1,5 @@
+de:
+  hello: "Hallo Welt"
+  popup:
+    confirm: "Bestätigen"
+    cancel: "Abbrechen"

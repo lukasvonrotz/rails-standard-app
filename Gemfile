@@ -53,3 +53,6 @@ gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 
 gem 'devise'
 gem 'bootstrap-sass'
+gem 'figaro'
+gem 'rails-i18n'
+gem 'devise-i18n'
